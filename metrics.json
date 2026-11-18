@@ -1,0 +1,78 @@
+{
+  "accuracy": 0.8296386929609904,
+  "report": {
+    "Irrelevant": {
+      "precision": 0.812,
+      "recall": 0.746628524724152,
+      "f1-score": 0.7779433681073026,
+      "support": 2447.0
+    },
+    "Negative": {
+      "precision": 0.83887757411179,
+      "recall": 0.8778119820033152,
+      "f1-score": 0.8579032631335339,
+      "support": 4223.0
+    },
+    "Neutral": {
+      "precision": 0.8348457350272233,
+      "recall": 0.8089097303634232,
+      "f1-score": 0.8216731169991068,
+      "support": 3412.0
+    },
+    "Positive": {
+      "precision": 0.8249553457514672,
+      "recall": 0.8481112277019937,
+      "f1-score": 0.8363730435907386,
+      "support": 3812.0
+    },
+    "accuracy": 0.8296386929609904,
+    "macro avg": {
+      "precision": 0.8276696637226201,
+      "recall": 0.820365366198221,
+      "f1-score": 0.8234731979576705,
+      "support": 13894.0
+    },
+    "weighted avg": {
+      "precision": 0.8293340594063314,
+      "recall": 0.8296386929609904,
+      "f1-score": 0.8290165265107479,
+      "support": 13894.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3707,
+      220,
+      173,
+      123
+    ],
+    [
+      232,
+      3233,
+      208,
+      139
+    ],
+    [
+      259,
+      232,
+      2760,
+      161
+    ],
+    [
+      221,
+      234,
+      165,
+      1827
+    ]
+  ],
+  "labels": [
+    "Negative",
+    "Positive",
+    "Neutral",
+    "Irrelevant"
+  ],
+  "train_size": 55575,
+  "test_size": 13894,
+  "total_size": 69469,
+  "vocab_size": 20000
+}
